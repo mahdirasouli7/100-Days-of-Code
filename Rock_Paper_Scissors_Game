@@ -9,34 +9,34 @@ elif user_choice == 2:
 
 else:
   print("Invalid input")
-computer_choice = random.randint(0,2)
-if computer_choice == 0:
-  print("Computr Chooses Rock")
-elif computer_choice == 1:
+computer_choice = random.randint(3,5)
+if computer_choice == 3:
+  print("Computer Chooses Rock")
+elif computer_choice == 4:
   print("Computer Chooses Paper")
-elif computer_choice == 2:
+elif computer_choice == 5:
   print("Computer Chooses Scissors")
 
 
-if user_choice == 0 and computer_choice == 2:
+if user_choice == 0 and computer_choice == 5:
   print("You win")
-elif user_choice == 0 and computer_choice == 1:
+elif user_choice == 0 and computer_choice == 4:
   print("You lose")
-elif user_choice == 0 and computer_choice == 0:
+elif user_choice == 0 and computer_choice == 3:
   print("Draw")
 
 
-elif user_choice == 1 and computer_choice == 0:
+elif user_choice == 1 and computer_choice == 3:
   print("You win")
-elif user_choice == 1 and computer_choice == 1:
+elif user_choice == 1 and computer_choice == 4:
   print("Draw")
-elif user_choice == 1 and computer_choice == 2:
+elif user_choice == 1 and computer_choice == 5:
   print("You lose")
 
 
-elif user_choice == 2 and computer_choice == 0:
+elif user_choice == 2 and computer_choice == 3:
   print("You lose")
-elif user_choice == 2 and computer_choice == 1:
+elif user_choice == 2 and computer_choice == 4:
   print("You win")
-elif user_choice == 2 and computer_choice == 2:
+elif user_choice == 2 and computer_choice == 5:
   print("Draw")
